@@ -7,16 +7,18 @@ import { motion } from "framer-motion"
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 overflow-hidden text-primary-foreground">
+    <section className="relative min-h-[50vh] sm:min-h-screen flex items-center justify-center pt-16 sm:pt-20 overflow-hidden text-primary-foreground">
 
       {/* Background Image with Parallax */}
       <motion.div
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center sm:bg-cover"
         style={{
           backgroundImage: "url('/gis-clear.jpeg')",
+          backgroundSize: "cover",
+          backgroundPosition: "left",
         }}
       />
 
