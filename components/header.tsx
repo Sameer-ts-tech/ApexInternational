@@ -181,7 +181,7 @@ export function Header() {
                     transition={{ delay: 0.25 }}
                   >
                     <Link
-                      href="#portfolio"
+                      href="#impact"
                       className="text-base text-primary-foreground/80 hover:text-accent transition-colors block py-2"
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -194,7 +194,7 @@ export function Header() {
                     transition={{ delay: 0.3 }}
                   >
                     <Link
-                      href="#ourPortal"
+                      href="#portfolio"
                       className="text-base text-primary-foreground/80 hover:text-accent transition-colors block py-2"
                       onClick={() => setMobileMenuOpen(false)}
                     >
