@@ -20,11 +20,11 @@ export const metadata: Metadata = {
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/white-apexFavicon.png",
+        url: "/white-favicon.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/white-apexFavicon.png",
+        url: "/white-favicon.png",
         type: "image/svg+xml",
       },
     ],
