@@ -159,7 +159,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1 text-sm sm:text-base">Call Us</h3>
-                    <p className="text-sm sm:text-base text-muted-foreground">+91-94738 74915</p>
+                    <p className="text-sm sm:text-base text-muted-foreground">+91-94738 74915 <br />+91-91403 04931</p>
                     <p className="text-sm sm:text-base text-muted-foreground">Mon-Fri, 9:00 AM - 6:00 PM</p>
                   </div>
                 </CardContent>

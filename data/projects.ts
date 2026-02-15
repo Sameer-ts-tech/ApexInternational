@@ -48,14 +48,14 @@ export const projectsData: ProjectData[] = [
   {
     id: 3,
     name: "नगर पंचायत बेवर , मैनपुरी",
-    status: "ongoing",
+    status: "completed",
     startDate: "2025",
-    propertiesMapped: 0,
+    propertiesMapped: 7594,
     description: "Property assessment and revenue demand generation",
 
     websiteUrl: "https://bewar.npup.in",
-    before: { properties: 0, demand: 0 },
-    after: { properties: 0, demand: 0 },
+    before: { properties: 4685, demand: 1980520 },
+    after: { properties: 7594, demand: 10860215 },
   },
   {
     id: 4,
@@ -66,6 +66,18 @@ export const projectsData: ProjectData[] = [
     description: "Digital property records and GIS integration",
 
     websiteUrl: "https://ghiror.npup.in",
+    before: { properties: 0, demand: 0 },
+    after: { properties: 0, demand: 0 },
+  },
+  {
+    id: 5,
+    name: "नगर पंचायत कंचौसी ,कानपुर देहात",
+    status: "ongoing",
+    startDate: "2026",
+    propertiesMapped: 0,
+    description: "Digital property records and GIS integration",
+
+    websiteUrl: "https://kanchausi.npup.in",
     before: { properties: 0, demand: 0 },
     after: { properties: 0, demand: 0 },
   },
